@@ -63,7 +63,7 @@ public class App
             if(words[1].equals("available")) {
             	
             	if(!(database.collectionExists(words[2]))){
-            	database.createCollection(("S_"+words[2]),(DBObject) database);
+            	database.createCollection(words[2],(DBObject) database);
             	}
                 URL myURL = new URL("http://jcp.jioconnect.com/collectServer?application="+words[2]+"&format=json");
                 URLConnection c = myURL.openConnection();
