@@ -1,34 +1,29 @@
 package com.harsh.health_monitoring;
 
 import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.FileWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Base64;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-import java.util.Date;
-import com.mongodb.client.MongoDatabase;
 
-import org.bson.BSONObject;
 import org.bson.Document;
-import org.json.*;
-import com.mongodb.MongoClient; 
-import com.mongodb.MongoCredential;  
+import org.json.JSONObject;
+
 import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
-import com.mongodb.Mongo;
+import com.mongodb.MongoClient;
+import com.mongodb.MongoCredential;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.gridfs.GridFS;
+import com.mongodb.gridfs.GridFSInputFile;
+ 
 
 
 public class App 
@@ -50,10 +45,10 @@ public class App
         System.out.println("Connected to the database successfully");  
         
         // Accessing the database 
-        MongoDatabase database = mongo.getDatabase("server"); 
+        DB database = mongo.getDB("server"); 
         System.out.println("Credentials ::"+ credential);     
-        database.drop();
-        
+        database.dropDatabase();
+        GridFS grid = new GridFS(database);
         
     	FileReader fr= new FileReader("./serverlist.txt");
         BufferedReader bufferedReader = new BufferedReader(fr);
@@ -67,8 +62,8 @@ public class App
             //System.out.println(words[2]);
             if(words[1].equals("available")) {
             	
-            	if(!(database.listCollectionNames().toString().contains(words[2]))){
-            	database.createCollection("S_"+words[2]);
+            	if(!(database.collectionExists(words[2]))){
+            	database.createCollection(("S_"+words[2]),(DBObject) database);
             	}
                 URL myURL = new URL("http://jcp.jioconnect.com/collectServer?application="+words[2]+"&format=json");
                 URLConnection c = myURL.openConnection();
