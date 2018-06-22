@@ -38,22 +38,21 @@ public class App
     	SimpleDateFormat dateformat = new SimpleDateFormat("HH");
     	String hour = dateformat.format(new Date()) + "00";
     	
-    	StringBuffer nw = new StringBuffer();
+    	
     	 // Creating a Mongo client 
        MongoClient mongo = new MongoClient( "localhost" , 27017 ); 
      
         // Creating Credentials 
         MongoCredential credential; 
         
-        
-        credential = MongoCredential.createCredential("sampleUser", "server", 
-           "password".toCharArray()); 
+        credential = MongoCredential.createCredential("", "server", 
+           "".toCharArray()); 
         System.out.println("Connected to the database successfully");  
         
         // Accessing the database 
         MongoDatabase database = mongo.getDatabase("server"); 
         System.out.println("Credentials ::"+ credential);     
-        
+        database.drop();
         
         
     	FileReader fr= new FileReader("./serverlist.txt");
@@ -62,13 +61,15 @@ public class App
          
         while ((line = bufferedReader.readLine()) != null) {
             JSONObject json = new JSONObject();
-        	
+        	StringBuffer nw = new StringBuffer();
         	//System.out.println("reading");
             String[] words=line.split("\\s");
             //System.out.println(words[2]);
             if(words[1].equals("available")) {
-            	database.createCollection(words[2]);
-
+            	
+            	if(!(database.listCollectionNames().toString().contains(words[2]))){
+            	database.createCollection("S_"+words[2]);
+            	}
                 URL myURL = new URL("http://jcp.jioconnect.com/collectServer?application="+words[2]+"&format=json");
                 URLConnection c = myURL.openConnection();
                 FileWriter fw=new FileWriter("./logs/log"+words[2]+".json");
@@ -102,7 +103,7 @@ public class App
                     });
                     fw.close();
                     //System.out.println(nw);
-                    json.put(hour, nw);
+                    json.putOnce(hour, nw);
                     Document djson = Document.parse(json.toString());
                     database.getCollection(words[2]).insertOne(djson); 
 						
