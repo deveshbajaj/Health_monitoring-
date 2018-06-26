@@ -71,7 +71,7 @@ public class App
 
 
                 String authStr = Base64.getEncoder()
-                        .encodeToString("jcp:Jcp$1234".getBytes());
+                        .encodeToString("data--------".getBytes());
                 c.setRequestProperty("Authorization", "Basic " + authStr);
                 
                 
